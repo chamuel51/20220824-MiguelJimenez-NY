@@ -14,8 +14,14 @@
 		50AFC14828B6E4DB008FAC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC14728B6E4DB008FAC7E /* Assets.xcassets */; };
 		50AFC14B28B6E4DB008FAC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC14928B6E4DB008FAC7E /* LaunchScreen.storyboard */; };
 		50AFC15628B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC15528B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift */; };
-		50AFC16028B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC15F28B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITests.swift */; };
-		50AFC16228B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC16128B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift */; };
+		50AFC17228B6E59C008FAC7E /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17128B6E59C008FAC7E /* School.swift */; };
+		50AFC17428B6E5CD008FAC7E /* SchoolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17328B6E5CD008FAC7E /* SchoolDetail.swift */; };
+		50AFC17728B6E68E008FAC7E /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17628B6E68E008FAC7E /* SchoolViewController.swift */; };
+		50AFC17928B6E6A3008FAC7E /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17828B6E6A3008FAC7E /* SchoolDetailsViewController.swift */; };
+		50AFC17C28B6E6F9008FAC7E /* SchoolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17B28B6E6F9008FAC7E /* SchoolRequest.swift */; };
+		50AFC17E28B6E738008FAC7E /* SchoolDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17D28B6E738008FAC7E /* SchoolDetailsView.swift */; };
+		50AFC18128B6E87B008FAC7E /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17F28B6E87B008FAC7E /* DetailTableViewCell.swift */; };
+		50AFC18228B6E87B008FAC7E /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC18028B6E87B008FAC7E /* DetailTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +53,14 @@
 		50AFC15128B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220824-MiguelJimenez-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFC15528B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220824_MiguelJimenez_NYCSchoolsTests.swift; sourceTree = "<group>"; };
 		50AFC15B28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220824-MiguelJimenez-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50AFC15F28B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220824_MiguelJimenez_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
-		50AFC16128B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50AFC17128B6E59C008FAC7E /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		50AFC17328B6E5CD008FAC7E /* SchoolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetail.swift; sourceTree = "<group>"; };
+		50AFC17628B6E68E008FAC7E /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
+		50AFC17828B6E6A3008FAC7E /* SchoolDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewController.swift; sourceTree = "<group>"; };
+		50AFC17B28B6E6F9008FAC7E /* SchoolRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolRequest.swift; sourceTree = "<group>"; };
+		50AFC17D28B6E738008FAC7E /* SchoolDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsView.swift; sourceTree = "<group>"; };
+		50AFC17F28B6E87B008FAC7E /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		50AFC18028B6E87B008FAC7E /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +93,6 @@
 			children = (
 				50AFC13D28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools */,
 				50AFC15428B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests */,
-				50AFC15E28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests */,
 				50AFC13C28B6E4DA008FAC7E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,12 +110,14 @@
 		50AFC13D28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
-				50AFC13E28B6E4DA008FAC7E /* AppDelegate.swift */,
+				50AFC16E28B6E540008FAC7E /* Model */,
+				50AFC16F28B6E54E008FAC7E /* View */,
+				50AFC17028B6E55D008FAC7E /* Controller */,
+				50AFC17A28B6E6BA008FAC7E /* Services */,
 				50AFC14028B6E4DA008FAC7E /* SceneDelegate.swift */,
+				50AFC13E28B6E4DA008FAC7E /* AppDelegate.swift */,
 				50AFC14228B6E4DA008FAC7E /* ViewController.swift */,
-				50AFC14428B6E4DA008FAC7E /* Main.storyboard */,
 				50AFC14728B6E4DB008FAC7E /* Assets.xcassets */,
-				50AFC14928B6E4DB008FAC7E /* LaunchScreen.storyboard */,
 				50AFC14C28B6E4DB008FAC7E /* Info.plist */,
 			);
 			path = "20220824-MiguelJimenez-NYCSchools";
@@ -118,13 +131,50 @@
 			path = "20220824-MiguelJimenez-NYCSchoolsTests";
 			sourceTree = "<group>";
 		};
-		50AFC15E28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests */ = {
+		50AFC16E28B6E540008FAC7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				50AFC15F28B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITests.swift */,
-				50AFC16128B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift */,
+				50AFC17128B6E59C008FAC7E /* School.swift */,
+				50AFC17328B6E5CD008FAC7E /* SchoolDetail.swift */,
 			);
-			path = "20220824-MiguelJimenez-NYCSchoolsUITests";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50AFC16F28B6E54E008FAC7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50AFC17528B6E646008FAC7E /* Cells */,
+				50AFC14428B6E4DA008FAC7E /* Main.storyboard */,
+				50AFC14928B6E4DB008FAC7E /* LaunchScreen.storyboard */,
+				50AFC17D28B6E738008FAC7E /* SchoolDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50AFC17028B6E55D008FAC7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50AFC17628B6E68E008FAC7E /* SchoolViewController.swift */,
+				50AFC17828B6E6A3008FAC7E /* SchoolDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50AFC17528B6E646008FAC7E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				50AFC17F28B6E87B008FAC7E /* DetailTableViewCell.swift */,
+				50AFC18028B6E87B008FAC7E /* DetailTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		50AFC17A28B6E6BA008FAC7E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				50AFC17B28B6E6F9008FAC7E /* SchoolRequest.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +283,7 @@
 			files = (
 				50AFC14B28B6E4DB008FAC7E /* LaunchScreen.storyboard in Resources */,
 				50AFC14828B6E4DB008FAC7E /* Assets.xcassets in Resources */,
+				50AFC18228B6E87B008FAC7E /* DetailTableViewCell.xib in Resources */,
 				50AFC14628B6E4DA008FAC7E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +309,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50AFC17928B6E6A3008FAC7E /* SchoolDetailsViewController.swift in Sources */,
+				50AFC17428B6E5CD008FAC7E /* SchoolDetail.swift in Sources */,
 				50AFC14328B6E4DA008FAC7E /* ViewController.swift in Sources */,
+				50AFC17E28B6E738008FAC7E /* SchoolDetailsView.swift in Sources */,
+				50AFC17728B6E68E008FAC7E /* SchoolViewController.swift in Sources */,
 				50AFC13F28B6E4DA008FAC7E /* AppDelegate.swift in Sources */,
 				50AFC14128B6E4DA008FAC7E /* SceneDelegate.swift in Sources */,
+				50AFC17228B6E59C008FAC7E /* School.swift in Sources */,
+				50AFC18128B6E87B008FAC7E /* DetailTableViewCell.swift in Sources */,
+				50AFC17C28B6E6F9008FAC7E /* SchoolRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50AFC16228B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITestsLaunchTests.swift in Sources */,
-				50AFC16028B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
