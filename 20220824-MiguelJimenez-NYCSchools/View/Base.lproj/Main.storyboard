@@ -12,7 +12,7 @@
         <!--Schools-->
         <scene sceneID="CpC-zG-Pzu">
             <objects>
-                <viewController id="OEl-ws-YiZ" customClass="SchoolViewController" customModule="_0220824_MiguelJimenez_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SchoolViewController" id="OEl-ws-YiZ" customClass="SchoolViewController" customModule="_0220824_MiguelJimenez_NYCSchools" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rXc-DM-Mab">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50129FF728B77A07002E758C /* SchoolViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50129FF628B77A07002E758C /* SchoolViewControllerTests.swift */; };
+		50129FF928B77E34002E758C /* SchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17628B6E68E008FAC7E /* SchoolViewController.swift */; };
+		50129FFA28B77EDC002E758C /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17828B6E6A3008FAC7E /* SchoolDetailsViewController.swift */; };
+		50129FFB28B78613002E758C /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17128B6E59C008FAC7E /* School.swift */; };
+		50129FFC28B78617002E758C /* SchoolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17328B6E5CD008FAC7E /* SchoolDetail.swift */; };
+		50129FFD28B78636002E758C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17F28B6E87B008FAC7E /* DetailTableViewCell.swift */; };
+		50129FFE28B78647002E758C /* SchoolDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17D28B6E738008FAC7E /* SchoolDetailsView.swift */; };
+		50129FFF28B78657002E758C /* SchoolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC17B28B6E6F9008FAC7E /* SchoolRequest.swift */; };
 		50AFC13F28B6E4DA008FAC7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC13E28B6E4DA008FAC7E /* AppDelegate.swift */; };
 		50AFC14128B6E4DA008FAC7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC14028B6E4DA008FAC7E /* SceneDelegate.swift */; };
-		50AFC14328B6E4DA008FAC7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50AFC14228B6E4DA008FAC7E /* ViewController.swift */; };
 		50AFC14628B6E4DA008FAC7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC14428B6E4DA008FAC7E /* Main.storyboard */; };
 		50AFC14828B6E4DB008FAC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC14728B6E4DB008FAC7E /* Assets.xcassets */; };
 		50AFC14B28B6E4DB008FAC7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AFC14928B6E4DB008FAC7E /* LaunchScreen.storyboard */; };
@@ -32,27 +39,19 @@
 			remoteGlobalIDString = 50AFC13A28B6E4DA008FAC7E;
 			remoteInfo = "20220824-MiguelJimenez-NYCSchools";
 		};
-		50AFC15C28B6E4DB008FAC7E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 50AFC13328B6E4DA008FAC7E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 50AFC13A28B6E4DA008FAC7E;
-			remoteInfo = "20220824-MiguelJimenez-NYCSchools";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50129FF628B77A07002E758C /* SchoolViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewControllerTests.swift; sourceTree = "<group>"; };
 		50AFC13B28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220824-MiguelJimenez-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFC13E28B6E4DA008FAC7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50AFC14028B6E4DA008FAC7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		50AFC14228B6E4DA008FAC7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50AFC14528B6E4DA008FAC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50AFC14728B6E4DB008FAC7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50AFC14A28B6E4DB008FAC7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50AFC14C28B6E4DB008FAC7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50AFC15128B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220824-MiguelJimenez-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFC15528B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220824_MiguelJimenez_NYCSchoolsTests.swift; sourceTree = "<group>"; };
-		50AFC15B28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220824-MiguelJimenez-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50AFC17128B6E59C008FAC7E /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
 		50AFC17328B6E5CD008FAC7E /* SchoolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetail.swift; sourceTree = "<group>"; };
 		50AFC17628B6E68E008FAC7E /* SchoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewController.swift; sourceTree = "<group>"; };
@@ -78,13 +77,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50AFC15828B6E4DB008FAC7E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -102,7 +94,6 @@
 			children = (
 				50AFC13B28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools.app */,
 				50AFC15128B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests.xctest */,
-				50AFC15B28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +107,6 @@
 				50AFC17A28B6E6BA008FAC7E /* Services */,
 				50AFC14028B6E4DA008FAC7E /* SceneDelegate.swift */,
 				50AFC13E28B6E4DA008FAC7E /* AppDelegate.swift */,
-				50AFC14228B6E4DA008FAC7E /* ViewController.swift */,
 				50AFC14728B6E4DB008FAC7E /* Assets.xcassets */,
 				50AFC14C28B6E4DB008FAC7E /* Info.plist */,
 			);
@@ -127,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				50AFC15528B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift */,
+				50129FF628B77A07002E758C /* SchoolViewControllerTests.swift */,
 			);
 			path = "20220824-MiguelJimenez-NYCSchoolsTests";
 			sourceTree = "<group>";
@@ -215,24 +206,6 @@
 			productReference = 50AFC15128B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		50AFC15A28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 50AFC16B28B6E4DB008FAC7E /* Build configuration list for PBXNativeTarget "20220824-MiguelJimenez-NYCSchoolsUITests" */;
-			buildPhases = (
-				50AFC15728B6E4DB008FAC7E /* Sources */,
-				50AFC15828B6E4DB008FAC7E /* Frameworks */,
-				50AFC15928B6E4DB008FAC7E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				50AFC15D28B6E4DB008FAC7E /* PBXTargetDependency */,
-			);
-			name = "20220824-MiguelJimenez-NYCSchoolsUITests";
-			productName = "20220824-MiguelJimenez-NYCSchoolsUITests";
-			productReference = 50AFC15B28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,10 +220,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					50AFC15028B6E4DB008FAC7E = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 50AFC13A28B6E4DA008FAC7E;
-					};
-					50AFC15A28B6E4DB008FAC7E = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 50AFC13A28B6E4DA008FAC7E;
 					};
@@ -271,7 +240,6 @@
 			targets = (
 				50AFC13A28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools */,
 				50AFC15028B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsTests */,
-				50AFC15A28B6E4DB008FAC7E /* 20220824-MiguelJimenez-NYCSchoolsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,13 +263,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50AFC15928B6E4DB008FAC7E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -311,7 +272,6 @@
 			files = (
 				50AFC17928B6E6A3008FAC7E /* SchoolDetailsViewController.swift in Sources */,
 				50AFC17428B6E5CD008FAC7E /* SchoolDetail.swift in Sources */,
-				50AFC14328B6E4DA008FAC7E /* ViewController.swift in Sources */,
 				50AFC17E28B6E738008FAC7E /* SchoolDetailsView.swift in Sources */,
 				50AFC17728B6E68E008FAC7E /* SchoolViewController.swift in Sources */,
 				50AFC13F28B6E4DA008FAC7E /* AppDelegate.swift in Sources */,
@@ -326,14 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50129FF728B77A07002E758C /* SchoolViewControllerTests.swift in Sources */,
 				50AFC15628B6E4DB008FAC7E /* _0220824_MiguelJimenez_NYCSchoolsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50AFC15728B6E4DB008FAC7E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				50129FFF28B78657002E758C /* SchoolRequest.swift in Sources */,
+				50129FFD28B78636002E758C /* DetailTableViewCell.swift in Sources */,
+				50129FFE28B78647002E758C /* SchoolDetailsView.swift in Sources */,
+				50129FFC28B78617002E758C /* SchoolDetail.swift in Sources */,
+				50129FF928B77E34002E758C /* SchoolViewController.swift in Sources */,
+				50129FFB28B78613002E758C /* School.swift in Sources */,
+				50129FFA28B77EDC002E758C /* SchoolDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,11 +305,6 @@
 			isa = PBXTargetDependency;
 			target = 50AFC13A28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools */;
 			targetProxy = 50AFC15228B6E4DB008FAC7E /* PBXContainerItemProxy */;
-		};
-		50AFC15D28B6E4DB008FAC7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 50AFC13A28B6E4DA008FAC7E /* 20220824-MiguelJimenez-NYCSchools */;
-			targetProxy = 50AFC15C28B6E4DB008FAC7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -557,7 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220824-MiguelJimenez-NYCSchools.app/20220824-MiguelJimenez-NYCSchools";
 			};
 			name = Debug;
@@ -577,44 +533,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220824-MiguelJimenez-NYCSchools.app/20220824-MiguelJimenez-NYCSchools";
-			};
-			name = Release;
-		};
-		50AFC16C28B6E4DB008FAC7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 83GQRM67B7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "chamuel.castillo.-0220824-MiguelJimenez-NYCSchoolsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "20220824-MiguelJimenez-NYCSchools";
-			};
-			name = Debug;
-		};
-		50AFC16D28B6E4DB008FAC7E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 83GQRM67B7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "chamuel.castillo.-0220824-MiguelJimenez-NYCSchoolsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "20220824-MiguelJimenez-NYCSchools";
 			};
 			name = Release;
 		};
@@ -644,15 +564,6 @@
 			buildConfigurations = (
 				50AFC16928B6E4DB008FAC7E /* Debug */,
 				50AFC16A28B6E4DB008FAC7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		50AFC16B28B6E4DB008FAC7E /* Build configuration list for PBXNativeTarget "20220824-MiguelJimenez-NYCSchoolsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50AFC16C28B6E4DB008FAC7E /* Debug */,
-				50AFC16D28B6E4DB008FAC7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

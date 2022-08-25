@@ -43,14 +43,7 @@ class SchoolDetailsViewController: UIViewController {
         schoolDetailsView.tableView.dataSource = self
         
         
-        let label = UILabel()
-        label.backgroundColor = .clear
-        label.numberOfLines = 2
-        label.font = UIFont.boldSystemFont(ofSize: 16.0)
-        label.textAlignment = .center
-        label.textColor = .black
-//        label.text = "This is a\nmultiline string for the navBar"
-        self.navigationItem.titleView = label
+    
     }
 }
 
@@ -67,7 +60,7 @@ extension SchoolDetailsViewController : UITableViewDataSource{
         schoolCell?.titleLabel.text = self.schooolDetailsTuple[indexPath.item].description
         schoolCell?.averageGradeLabel.text = self.schooolDetailsTuple[indexPath.item].value
         schoolCell?.maxGradeLabel.text = String(800)
-        schoolCell?.averageGradeProgressBar.setProgress(Float(self.schooolDetailsTuple[indexPath.item].value ?? "")!/800, animated: true)
+        schoolCell?.averageGradeProgressBar.setProgress((Float(self.schooolDetailsTuple[indexPath.item].value ?? "0") ?? 0.1)/800, animated: true)
         
         return schoolCell!
     }
