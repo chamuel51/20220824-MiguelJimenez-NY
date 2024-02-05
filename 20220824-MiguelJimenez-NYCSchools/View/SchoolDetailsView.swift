@@ -17,7 +17,7 @@ class SchoolDetailsView: UIView {
         
         super.init(frame: frame)
         
-        self.backgroundColor = .white
+        self.backgroundColor = .systemBackground
         addSubViews()
         setConstraints()
     }

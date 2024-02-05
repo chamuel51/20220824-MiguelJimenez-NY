@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0F4499FE-0FE6-496C-A322-667F750EC7ED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C099B5E2-27D8-4959-8B2C-890F32E7DF3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchools/Controller/SchoolViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "SchoolViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B1CFC1E-EDEE-4D69-93A8-9C02748A1FA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchools/Controller/SchoolDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69031678-2662-4112-B83E-770AEEB63B78"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchools/Controller/SchoolDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5818A7FD-5DF1-4C29-8A28-3A44D45DB10D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchoolsTests/_0220824_MiguelJimenez_NYCSchoolsTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "setUpWithError()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "972B8355-DE8B-48A7-B1A6-E38D03336000"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchoolsTests/SchoolViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "test_loading()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72CF10C6-57B4-4259-9905-0CD62BDF6ACD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "20220824-MiguelJimenez-NYCSchoolsTests/SchoolViewControllerTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "test_loading()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "72CF10C6-57B4-4259-9905-0CD62BDF6ACD - 15a3aeaebf5d0d55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0220824_MiguelJimenez_NYCSchoolsTests.SchoolViewControllerTests.test_loading() -&gt; ()"
+                  moduleName = "20220824-MiguelJimenez-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chamuelcastillo/REPO/20220824-MiguelJimenez-NYCSchools/20220824-MiguelJimenez-NYCSchoolsTests/SchoolViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "72CF10C6-57B4-4259-9905-0CD62BDF6ACD - 15a3aeaebf5d0d55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0220824_MiguelJimenez_NYCSchoolsTests.SchoolViewControllerTests.test_loading() -&gt; ()"
+                  moduleName = "20220824-MiguelJimenez-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chamuelcastillo/REPO/20220824-MiguelJimenez-NYCSchools/20220824-MiguelJimenez-NYCSchoolsTests/SchoolViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "72CF10C6-57B4-4259-9905-0CD62BDF6ACD - 15a3aeaebf5d0d55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_0220824_MiguelJimenez_NYCSchoolsTests.SchoolViewControllerTests.test_loading() -&gt; ()"
+                  moduleName = "20220824-MiguelJimenez-NYCSchoolsTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chamuelcastillo/REPO/20220824-MiguelJimenez-NYCSchools/20220824-MiguelJimenez-NYCSchoolsTests/SchoolViewControllerTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -38,6 +38,8 @@ class SchoolDetailsViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.tintColor = UIColor.systemCyan
+
         schoolDetailsView.tableView.register(UINib.init(nibName: schoolDetailID, bundle: nil), forCellReuseIdentifier: schoolDetailID)
         schoolDetailsView.tableView.rowHeight = 70
         schoolDetailsView.tableView.dataSource = self

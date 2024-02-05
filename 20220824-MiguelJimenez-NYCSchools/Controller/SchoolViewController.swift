@@ -18,6 +18,8 @@ class SchoolViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.tintColor = UIColor.systemCyan
+
         schoolTableView.delegate = self
         schoolTableView.dataSource = self
         
@@ -43,8 +45,14 @@ extension SchoolViewController : UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let schoolCell = tableView.dequeueReusableCell(withIdentifier: "schoolCell" , for: indexPath)
         
-        schoolCell.textLabel?.text = schoolList[indexPath.item].schoolName
-        schoolCell.detailTextLabel?.text = schoolList[indexPath.item].city
+        var content = schoolCell.defaultContentConfiguration()
+        
+        content.image = UIImage(systemName: "building.2.fill")
+        content.text = schoolList[indexPath.item].schoolName
+//        schoolCell.textLabel?.text =
+        content.secondaryText = schoolList[indexPath.item].city
+//        schoolCell.textlabel
+        schoolCell.contentConfiguration = content
         return schoolCell
     }
 }
